@@ -13,16 +13,20 @@
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
+        },
+        {
+            "name": "Mykhailo Shtanko",
+            "email": "fractalzombie@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "symfony/process": "^4.4|^5.3|^6.0"
+        "php": ">=8.1",
+        "symfony/process": "^4.4|^5.3|^6.0|^7.0"
     },
     "require-dev": {
         "pestphp/pest": "^1.22",
         "spatie/pest-plugin-snapshots": "^1.1",
-        "symfony/var-dumper": "^5.3|6.0"
+        "symfony/var-dumper": "^5.3|^6.0|^7.0"
     },
     "config": {
         "sort-packages": true,
